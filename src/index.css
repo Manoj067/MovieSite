@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown-link {
+    @apply px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded text-sm transition;
+  }
